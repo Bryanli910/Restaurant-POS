@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.leftPaneContainer{
+	/*border: 1px black solid;*/
+	height: 100%;
+	width: 19%;
+	left: 0px;
+	float:left;
+	top: 0px;
+	
+}
+.rightPaneContainer{
+	height: 100%;
+	/*padding: 10px;*/
+	top: 0px;
+	float:left;
+	width: 80%;
+	display: block;
+}
+.rightPaneForm{
+	border: 1px black solid;
+	margin: 10px;
+	height: 94%;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 10px;
+}
+.accountList{
+	height: 100%;
+	overflow: scroll;
+}
+.accountListItem{
+	border: 1px black solid;
+	margin: 10px;
+	/*width: 100%;*/
+	padding: 10px;
+	box-shadow: 5px 5px 5px #888888;
+}
+.addAccountButton{
+	bottom: 50px;
+	left: 75%;
+	position: relative;
+	font-size: 30px;
+	background-color: white;
+	text-align:center;
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.editItemTitle{
+	font-size: 30px;	
+}
+.editForm{
+	margin-top: 10px;
+}
